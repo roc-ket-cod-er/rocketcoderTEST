@@ -9,7 +9,7 @@ h1 {
 
 body {
   color: orange;
-  background-color: green;
+  background-color: black;
 }
 
 .landing {
@@ -23,8 +23,15 @@ body {
 }
 
 .landing img {
-  width: max-content;
-  height: max-content;
+  height: 14vw;
+}
+
+.column {
+  padding: 5px;
+}
+
+.row {
+  display: flex;
 }
 
 p {
